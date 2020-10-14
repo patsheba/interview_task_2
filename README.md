@@ -1,10 +1,10 @@
 # interview_task_2
 A stateless microservice in Nodejs with ReactJs frontend, with two major functionalities -
 
-Authentication
+### Authentication
 JSON patching
 
-Setup
+### Setup
 The API requires Node.js
 
 To get up and running:
@@ -20,12 +20,12 @@ cd interview_task_2
 npm install
 4. The app gets up and running on port 9000 with npm start.
 
-5. Important Create a .env file and set jwtSecret to any secret phrase you want.
+5. Important Create a .env file and set JWT_SECRET to any secret phrase you want.
 
-Testing the API routes.
-Since this is mostly an API with post and patch requests, testing will be done with Postman
+### Testing the API routes.
+Since this is mostly an API with post and patch requests, testing will be done with Postman or with the react app
 
-Authentication
+### Authentication
 This is a mock authentication so you can pass in any username or password to login.
 
 Set the request to POST and the url to /users/login.
