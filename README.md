@@ -18,7 +18,7 @@ cd interview_task_2
 3. Setup the application by installing its dependencies with
 
 npm install
-4. The app gets up and running on port 9000 with npm start.
+4. The app gets up and running on port 9000 with ```npm start```.
 
 5. Important Create a .env file and set JWT_SECRET to any secret phrase you want.
 
@@ -28,7 +28,7 @@ Since this is mostly an API with post and patch requests, testing will be done w
 ### Authentication
 This is a mock authentication so you can pass in any username or password to login.
 
-Set the request to POST and the url to /users/login.
+Set the request to POST and the url to ```/users/login```.
 In the Body for the Postman request, select x-www-form-urlencoded.
 You will be setting 2 keys (for username and password). Set the username key to any name. Set password to any password (minimum of 6 characters).
 Hit Send. You will get a result in this format:
@@ -42,8 +42,8 @@ Hit Send. You will get a result in this format:
 JSON patching
 Apply json patch to a json object, and return the resulting json object.
 
-Set the request to PATCH and the url to /api/patch-object.
-Set the key jsonObject to an object you would like to patch. Set the key jsonPatchObject to the object you want to use to patch the jsonObject.
+Set the request to PATCH and the url to ```/patch/patch-object```.
+Set the key ```jsonObject``` to an object you would like to patch. Set the key ```jsonPatchObject``` to the object you want to use to patch the jsonObject.
 Examples:
 ```
 jsonObject
